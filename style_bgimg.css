@@ -1,0 +1,191 @@
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background-image: url('knjig.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+	font:normal 12px/1.8em Arial, Helvetica, sans-serif;
+}
+html, .main {
+	padding:0;
+	margin:0;
+	
+}
+
+.clr {
+	color:#000000;
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+
+h1 {
+	margin:0;
+	padding:42px 0;
+	color:#1E2D7C;
+	font:normal 32px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:-2px;
+}
+h1 a, h1 a:hover {
+	color:#1E2D7C;
+	text-decoration:none;
+}
+h1 span {
+	color:#1E2D7C;
+	font-weight:bold;
+}
+h1 small {
+	display:block;
+	padding:0;
+	font:normal 16px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:normal;
+}
+h2 {
+	font:normal 24px Arial, Helvetica, sans-serif;
+	padding:8px 0;
+	margin:8px 0;
+	color:#323a3f;
+}
+p {
+	color: #000000;
+	margin:8px 0;
+	padding:0 0 8px 0;
+	font:normal 12px/1.8em Arial, Helvetica, sans-serif;
+}
+a {
+	color:#E0000C;
+	text-decoration:underline;
+}
+.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar {
+	margin:0;
+	padding:0;
+}
+.fbg_resize {
+	margin:0 auto;
+	padding:0 40px;
+	width:890px;
+}
+.header {
+	
+	
+    
+    
+	}
+
+	
+	
+	
+.header_resize {
+	margin: 5, auto;
+	width: 80%;
+	padding-left:110px;
+	
+}
+
+
+
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 80%; /* Full width */
+}
+
+.logo {
+  display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 30px; 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #E0000C;
+  color: white;
+}
+
+
+
+
+.main {
+   margin-top: 80px; /* Add a top margin to avoid content overlay */
+}   
+
+.content {
+	margin-top:100px;
+	padding-top:100px;
+	padding-bottom:24px;
+   
+    width: 870px;
+    margin: 0 auto;
+}
+
+
+
+
+.fbg_resize {
+	background-color:#E0000C;
+	
+	padding:24px 40px;
+}
+.fbg_resize {
+	border-radius: 25px;
+}
+
+.fbg .col {
+	margin:0;
+	float:left;
+}
+.fbg .c1 {
+	padding:0 16px 0 0;
+	width:306px;
+}
+.fbg .c2 {
+	padding:0 16px;
+	width:260px;
+}
+.fbg .c3 {
+	padding:0 0 0 16px;
+	width:260px;
+}
+.fbg .c1 img {
+	margin:8px 16px 4px 0;
+	float:left;
+}
+.fbg .c2 img {
+	margin:8px 16px 4px 0;
+float:left;
+}
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    margin:0 auto;
+	padding:24px 40px;
+	width:890px;

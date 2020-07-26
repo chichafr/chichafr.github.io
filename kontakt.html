@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kontakt</title>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <link href="style.css" rel="stylesheet" type="text/css" />   
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="main">
+        <div class="header">
+        <div class="header_resize">
+     
+      <div class="clr"></div>
+         
+<!--Izbornik -->
+    <div class="topnav">
+        <img class="logo" src="KSIZ-logo-02.png">        
+        <a href="index.html">Naslovna</a>
+        <a href="index.html">Obavijesti</a>
+        <a class="active" href="kontakt.html">Kontakt</a>
+        <a href="onama.html">O nama</a>
+        <div class="dropdown">
+        <button class="dropbtn">Vodič
+        </button>
+        <div class="dropdown-content">
+        <a href="kolegiji.html">Kolegiji</a>
+        <a href="nastavnici.html">Nastavnici</a>
+        <a href="glosarij.html">Glosarij</a>
+    </div>
+  </div>            
+</div>     
+            
+<div class="clr"></div> 
+
+<div class="main">
+  <div id="content" class="content">  
+  <div class="sadrzaj">
+  <div class="entry">
+		<p style="text-align: justify;">
+        <br>
+        <br>
+        <h3>Adresa:</h3>
+        Klub studenata Informacijskih znanosti <br>
+        Filozofski fakultet <br>
+        Ulica Ivana Lučića 3 <br>
+        10000 Zagreb<br>
+        Croatia
+         </p>
+   </div>
+    
+</div>
+ 
+  <!--Karta -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // Lokacija
+  var faks = {lat: 45.796563, lng: 15.970959};
+  // The map, centered at lokacija
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: faks});
+  // The marker, positioned at lokacija
+  var marker = new google.maps.Marker({position: faks, map: map});
+}
+    </script>
+   
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVp1Ph-saDWm2Xce2KtsOKnkhB8klWlbs&callback=initMap">
+    </script>
+  </div>  
+</div> 
+  
+<div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        
+        </div>
+        
+      </div>
+      
+      <div class="clr"></div>
+    </div>
+  </div>
+ </div> 
+  
+  <div class="fbg">
+    <div class="fbg_resize">
+        <br>
+        <br>  
+        <h5>Stranicu izradio:</h5>
+        <h5>Kristijan Markušić-Novosel</h5>  
+        
+       </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer"></div>
+  </div>
+</div>
+</div>
+</div>  
+  </body>
+</html>
