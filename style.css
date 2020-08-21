@@ -100,11 +100,7 @@ a {
 }
 
 
-.header_resize {
-	
-	
-	
-}
+
 
   
 ul {
@@ -295,17 +291,17 @@ img {vertical-align: middle;}
 
 .search-box {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
     background: #2f3640;
-    height: 40px;
+   
     border-radius: 40px;
     padding: 10px;
  }    
 
 .search-box:hover > .search-txt {
-     width: 345px;
+     width: 400px;
      padding: 0 6px;
  }
 
@@ -342,7 +338,7 @@ img {vertical-align: middle;}
 #map {
         height: 400px;
         width: 100%;  
-        z-index: -1;
+        z-index: 0;
 } 
 
 .fbg_resize {
@@ -350,4 +346,28 @@ img {vertical-align: middle;}
 	height: 120px;
 	width:100%;
     padding-left: 20px;
+    box-shadow: 0px 0px 25px rgb(207, 207, 207);
+    }
+
+
+
+.footer_cont {
+	display: block;
+	padding: 10px;
+	padding-left: 100px;
+	margin: 0px auto;
+	text-align: center;
+	font: 25px Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+    width:auto;
+    color:white;
+}
+.foot {
+ display:inline;
+    line-height: 70px;
+}
+.footer_cont img {
+ height:64px;
+    width: 112px;
+    float:right;
 }
